@@ -19,6 +19,7 @@ namespace Taller_GMaps
     public partial class Form1 : Form
     {
 
+
         GMarkerGoogle market;
         GMapOverlay marketOverplay;
 
