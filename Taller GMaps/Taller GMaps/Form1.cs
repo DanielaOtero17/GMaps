@@ -32,6 +32,8 @@ namespace Taller_GMaps
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+
             gMapControl1.DragButton = MouseButtons.Left;
             gMapControl1.CanDragMap = true;
             gMapControl1.MapProvider = GMapProviders.GoogleMap;
