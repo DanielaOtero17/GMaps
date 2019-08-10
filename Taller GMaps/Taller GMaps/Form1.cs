@@ -24,8 +24,8 @@ namespace Taller_GMaps
         GMarkerGoogle market;
         GMapOverlay marketOverplay;
 
-        double latInicial = 20.968813;
-        double longInicial = 89.625091;
+        double latInicial = 3.451792;
+        double longInicial = -76.532494;
 
         public Form1()
         {
