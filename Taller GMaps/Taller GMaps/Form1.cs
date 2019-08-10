@@ -20,6 +20,7 @@ namespace Taller_GMaps
     {
 
 
+
         GMarkerGoogle market;
         GMapOverlay marketOverplay;
 
