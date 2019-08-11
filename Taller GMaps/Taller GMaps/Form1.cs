@@ -57,5 +57,10 @@ namespace Taller_GMaps
             gMapControl1.Overlays.Add(marketOverlay);
                 
         }
+
+        private void BtnMirar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -88,6 +88,7 @@
             this.btnMirar.TabIndex = 0;
             this.btnMirar.Text = "Mirar Ubicaciones";
             this.btnMirar.UseVisualStyleBackColor = true;
+            this.btnMirar.Click += new System.EventHandler(this.BtnMirar_Click);
             // 
             // Form1
             // 
