@@ -21,8 +21,8 @@ namespace Taller_GMaps
 
 
 
-        GMarkerGoogle market;
-        GMapOverlay marketOverplay;
+        GMarkerGoogle marker;
+        GMapOverlay marketOverlay;
 
         double latInicial = 3.451792;
         double longInicial = -76.532494;
@@ -46,6 +46,16 @@ namespace Taller_GMaps
             gMapControl1.MaxZoom = 24;
             gMapControl1.Zoom = 9;
             gMapControl1.AutoScroll = true;
+
+            marketOverlay = new GMapOverlay("Marcador");
+            marker = new GMarkerGoogle(new PointLatLng(latInicial, longInicial),GMarkerGoogleType.red);
+            marketOverlay.Markers.Add(marker);
+
+            marker.ToolTipMode= MarkerTooltipMode.Always;
+            marker.ToolTipText = String.Format("Ubicacion : \n Latitud : {0} \n Longitud : {1}",latInicial,longInicial);
+
+            gMapControl1.Overlays.Add(marketOverlay);
+                
         }
     }
 }
