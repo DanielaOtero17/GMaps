@@ -93,29 +93,7 @@ namespace Taller_GMaps
 
                         gMapControl1.Overlays.Add(marketOverlay);
 
-                        if (regis.variableGas.Equals("PM10"))
-                        {
-                            PM10++;
-                        }else if (regis.variableGas.Equals("PM2.5"))
-                        {
-                            PM25++;
-                        }
-                        else if (regis.variableGas.Equals("CO2"))
-                        {
-                            CO++;
-                        }
-                        else if (regis.variableGas.Equals("NO2"))
-                        {
-                            NO2++;
-                        }
-                        else if (regis.variableGas.Equals("SO2"))
-                        {
-                            SO2++;
-                        }
-                        else
-                        {
-                            O3++;
-                        }
+                        
                     }
                     fs.Close();
                 }
