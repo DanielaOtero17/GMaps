@@ -31,7 +31,7 @@
             this.gMapControl1 = new GMap.NET.WindowsForms.GMapControl();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnMirar = new System.Windows.Forms.Button();
+            this.atras = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,7 +43,7 @@
             this.gMapControl1.GrayScaleMode = false;
             this.gMapControl1.HelperLineOption = GMap.NET.WindowsForms.HelperLineOptions.DontShow;
             this.gMapControl1.LevelsKeepInMemmory = 5;
-            this.gMapControl1.Location = new System.Drawing.Point(21, 78);
+            this.gMapControl1.Location = new System.Drawing.Point(27, 66);
             this.gMapControl1.MarkersEnabled = true;
             this.gMapControl1.MaxZoom = 2;
             this.gMapControl1.MinZoom = 2;
@@ -57,15 +57,16 @@
             this.gMapControl1.ScaleMode = GMap.NET.WindowsForms.ScaleModes.Integer;
             this.gMapControl1.SelectedAreaFillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(65)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
             this.gMapControl1.ShowTileGridLines = false;
-            this.gMapControl1.Size = new System.Drawing.Size(429, 360);
+            this.gMapControl1.Size = new System.Drawing.Size(714, 378);
             this.gMapControl1.TabIndex = 0;
             this.gMapControl1.Zoom = 0D;
+            this.gMapControl1.Load += new System.EventHandler(this.GMapControl1_Load);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(133, 38);
+            this.label1.Location = new System.Drawing.Point(288, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(194, 24);
             this.label1.TabIndex = 2;
@@ -74,36 +75,39 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.btnMirar);
-            this.panel1.Location = new System.Drawing.Point(469, 78);
+            this.panel1.Controls.Add(this.atras);
+            this.panel1.Controls.Add(this.gMapControl1);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(24, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(319, 360);
+            this.panel1.Size = new System.Drawing.Size(764, 461);
             this.panel1.TabIndex = 3;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             // 
-            // btnMirar
+            // atras
             // 
-            this.btnMirar.Location = new System.Drawing.Point(100, 289);
-            this.btnMirar.Name = "btnMirar";
-            this.btnMirar.Size = new System.Drawing.Size(125, 50);
-            this.btnMirar.TabIndex = 0;
-            this.btnMirar.Text = "Mirar Ubicaciones";
-            this.btnMirar.UseVisualStyleBackColor = true;
-            this.btnMirar.Click += new System.EventHandler(this.BtnMirar_Click);
+            this.atras.BackgroundImage = global::Taller_GMaps.Properties.Resources.atrás;
+            this.atras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.atras.Location = new System.Drawing.Point(678, 3);
+            this.atras.Name = "atras";
+            this.atras.Size = new System.Drawing.Size(63, 57);
+            this.atras.TabIndex = 40;
+            this.atras.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.atras.UseVisualStyleBackColor = true;
+            this.atras.Click += new System.EventHandler(this.Atras_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(816, 471);
+            this.ClientSize = new System.Drawing.Size(816, 495);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.gMapControl1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -112,7 +116,7 @@
         private GMap.NET.WindowsForms.GMapControl gMapControl1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button btnMirar;
+        private System.Windows.Forms.Button atras;
     }
 }
 

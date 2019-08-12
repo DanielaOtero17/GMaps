@@ -80,7 +80,9 @@ namespace Taller_GMaps
 
                         gMapControl1.Overlays.Add(marketOverlay);
                     }
+                    fs.Close();
                 }
+                
             }
             catch (SecurityException ex)
             {
@@ -92,6 +94,24 @@ namespace Taller_GMaps
 
         private void BtnMirar_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void GMapControl1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Atras_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Principal princi = new Principal();
+            princi.Show();
 
         }
     }

@@ -47,25 +47,25 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.AutoridadA = new System.Windows.Forms.TextBox();
+            this.municipio = new System.Windows.Forms.TextBox();
+            this.longitud = new System.Windows.Forms.TextBox();
+            this.tipoEsta = new System.Windows.Forms.TextBox();
+            this.depto = new System.Windows.Forms.TextBox();
+            this.variable = new System.Windows.Forms.TextBox();
+            this.ubicacion = new System.Windows.Forms.TextBox();
+            this.latitud = new System.Windows.Forms.TextBox();
+            this.Percentil = new System.Windows.Forms.TextBox();
+            this.NumExeden = new System.Windows.Forms.TextBox();
+            this.Mediana = new System.Windows.Forms.TextBox();
+            this.Unidades = new System.Windows.Forms.TextBox();
+            this.RepresentTemp = new System.Windows.Forms.TextBox();
+            this.min = new System.Windows.Forms.TextBox();
+            this.Max = new System.Windows.Forms.TextBox();
+            this.porcenExce = new System.Windows.Forms.TextBox();
+            this.DiasExceden = new System.Windows.Forms.TextBox();
+            this.nombreEsta = new System.Windows.Forms.TextBox();
+            this.tiempoProm = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -281,157 +281,157 @@
             this.label19.Text = "Nombre de la Estacion";
             this.label19.Click += new System.EventHandler(this.Label19_Click);
             // 
-            // textBox1
+            // AutoridadA
             // 
-            this.textBox1.Location = new System.Drawing.Point(221, 33);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(107, 22);
-            this.textBox1.TabIndex = 20;
+            this.AutoridadA.Location = new System.Drawing.Point(221, 33);
+            this.AutoridadA.Margin = new System.Windows.Forms.Padding(4);
+            this.AutoridadA.Name = "AutoridadA";
+            this.AutoridadA.Size = new System.Drawing.Size(107, 22);
+            this.AutoridadA.TabIndex = 20;
             // 
-            // textBox2
+            // municipio
             // 
-            this.textBox2.Location = new System.Drawing.Point(221, 295);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(107, 22);
-            this.textBox2.TabIndex = 21;
+            this.municipio.Location = new System.Drawing.Point(221, 295);
+            this.municipio.Margin = new System.Windows.Forms.Padding(4);
+            this.municipio.Name = "municipio";
+            this.municipio.Size = new System.Drawing.Size(107, 22);
+            this.municipio.TabIndex = 21;
             // 
-            // textBox3
+            // longitud
             // 
-            this.textBox3.Location = new System.Drawing.Point(221, 164);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(107, 22);
-            this.textBox3.TabIndex = 22;
+            this.longitud.Location = new System.Drawing.Point(221, 164);
+            this.longitud.Margin = new System.Windows.Forms.Padding(4);
+            this.longitud.Name = "longitud";
+            this.longitud.Size = new System.Drawing.Size(107, 22);
+            this.longitud.TabIndex = 22;
             // 
-            // textBox4
+            // tipoEsta
             // 
-            this.textBox4.Location = new System.Drawing.Point(221, 337);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(107, 22);
-            this.textBox4.TabIndex = 23;
+            this.tipoEsta.Location = new System.Drawing.Point(221, 337);
+            this.tipoEsta.Margin = new System.Windows.Forms.Padding(4);
+            this.tipoEsta.Name = "tipoEsta";
+            this.tipoEsta.Size = new System.Drawing.Size(107, 22);
+            this.tipoEsta.TabIndex = 23;
             // 
-            // textBox5
+            // depto
             // 
-            this.textBox5.Location = new System.Drawing.Point(221, 252);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(107, 22);
-            this.textBox5.TabIndex = 24;
+            this.depto.Location = new System.Drawing.Point(221, 252);
+            this.depto.Margin = new System.Windows.Forms.Padding(4);
+            this.depto.Name = "depto";
+            this.depto.Size = new System.Drawing.Size(107, 22);
+            this.depto.TabIndex = 24;
             // 
-            // textBox6
+            // variable
             // 
-            this.textBox6.Location = new System.Drawing.Point(221, 379);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(107, 22);
-            this.textBox6.TabIndex = 25;
+            this.variable.Location = new System.Drawing.Point(221, 379);
+            this.variable.Margin = new System.Windows.Forms.Padding(4);
+            this.variable.Name = "variable";
+            this.variable.Size = new System.Drawing.Size(107, 22);
+            this.variable.TabIndex = 25;
             // 
-            // textBox7
+            // ubicacion
             // 
-            this.textBox7.Location = new System.Drawing.Point(221, 209);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(107, 22);
-            this.textBox7.TabIndex = 26;
+            this.ubicacion.Location = new System.Drawing.Point(221, 209);
+            this.ubicacion.Margin = new System.Windows.Forms.Padding(4);
+            this.ubicacion.Name = "ubicacion";
+            this.ubicacion.Size = new System.Drawing.Size(107, 22);
+            this.ubicacion.TabIndex = 26;
             // 
-            // textBox8
+            // latitud
             // 
-            this.textBox8.Location = new System.Drawing.Point(221, 119);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(107, 22);
-            this.textBox8.TabIndex = 27;
+            this.latitud.Location = new System.Drawing.Point(221, 119);
+            this.latitud.Margin = new System.Windows.Forms.Padding(4);
+            this.latitud.Name = "latitud";
+            this.latitud.Size = new System.Drawing.Size(107, 22);
+            this.latitud.TabIndex = 27;
             // 
-            // textBox9
+            // Percentil
             // 
-            this.textBox9.Location = new System.Drawing.Point(585, 278);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(107, 22);
-            this.textBox9.TabIndex = 28;
+            this.Percentil.Location = new System.Drawing.Point(585, 278);
+            this.Percentil.Margin = new System.Windows.Forms.Padding(4);
+            this.Percentil.Name = "Percentil";
+            this.Percentil.Size = new System.Drawing.Size(107, 22);
+            this.Percentil.TabIndex = 28;
             // 
-            // textBox10
+            // NumExeden
             // 
-            this.textBox10.Location = new System.Drawing.Point(585, 79);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(107, 22);
-            this.textBox10.TabIndex = 29;
+            this.NumExeden.Location = new System.Drawing.Point(585, 79);
+            this.NumExeden.Margin = new System.Windows.Forms.Padding(4);
+            this.NumExeden.Name = "NumExeden";
+            this.NumExeden.Size = new System.Drawing.Size(107, 22);
+            this.NumExeden.TabIndex = 29;
             // 
-            // textBox11
+            // Mediana
             // 
-            this.textBox11.Location = new System.Drawing.Point(585, 228);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(107, 22);
-            this.textBox11.TabIndex = 30;
+            this.Mediana.Location = new System.Drawing.Point(585, 228);
+            this.Mediana.Margin = new System.Windows.Forms.Padding(4);
+            this.Mediana.Name = "Mediana";
+            this.Mediana.Size = new System.Drawing.Size(107, 22);
+            this.Mediana.TabIndex = 30;
             // 
-            // textBox12
+            // Unidades
             // 
-            this.textBox12.Location = new System.Drawing.Point(585, 30);
-            this.textBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(107, 22);
-            this.textBox12.TabIndex = 31;
+            this.Unidades.Location = new System.Drawing.Point(585, 30);
+            this.Unidades.Margin = new System.Windows.Forms.Padding(4);
+            this.Unidades.Name = "Unidades";
+            this.Unidades.Size = new System.Drawing.Size(107, 22);
+            this.Unidades.TabIndex = 31;
             // 
-            // textBox13
+            // RepresentTemp
             // 
-            this.textBox13.Location = new System.Drawing.Point(585, 127);
-            this.textBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(107, 22);
-            this.textBox13.TabIndex = 32;
+            this.RepresentTemp.Location = new System.Drawing.Point(585, 127);
+            this.RepresentTemp.Margin = new System.Windows.Forms.Padding(4);
+            this.RepresentTemp.Name = "RepresentTemp";
+            this.RepresentTemp.Size = new System.Drawing.Size(107, 22);
+            this.RepresentTemp.TabIndex = 32;
             // 
-            // textBox14
+            // min
             // 
-            this.textBox14.Location = new System.Drawing.Point(585, 373);
-            this.textBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(107, 22);
-            this.textBox14.TabIndex = 33;
+            this.min.Location = new System.Drawing.Point(585, 373);
+            this.min.Margin = new System.Windows.Forms.Padding(4);
+            this.min.Name = "min";
+            this.min.Size = new System.Drawing.Size(107, 22);
+            this.min.TabIndex = 33;
             // 
-            // textBox15
+            // Max
             // 
-            this.textBox15.Location = new System.Drawing.Point(585, 325);
-            this.textBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(107, 22);
-            this.textBox15.TabIndex = 34;
+            this.Max.Location = new System.Drawing.Point(585, 325);
+            this.Max.Margin = new System.Windows.Forms.Padding(4);
+            this.Max.Name = "Max";
+            this.Max.Size = new System.Drawing.Size(107, 22);
+            this.Max.TabIndex = 34;
             // 
-            // textBox16
+            // porcenExce
             // 
-            this.textBox16.Location = new System.Drawing.Point(585, 177);
-            this.textBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(107, 22);
-            this.textBox16.TabIndex = 35;
+            this.porcenExce.Location = new System.Drawing.Point(585, 177);
+            this.porcenExce.Margin = new System.Windows.Forms.Padding(4);
+            this.porcenExce.Name = "porcenExce";
+            this.porcenExce.Size = new System.Drawing.Size(107, 22);
+            this.porcenExce.TabIndex = 35;
             // 
-            // textBox17
+            // DiasExceden
             // 
-            this.textBox17.Location = new System.Drawing.Point(585, 430);
-            this.textBox17.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(107, 22);
-            this.textBox17.TabIndex = 36;
+            this.DiasExceden.Location = new System.Drawing.Point(585, 430);
+            this.DiasExceden.Margin = new System.Windows.Forms.Padding(4);
+            this.DiasExceden.Name = "DiasExceden";
+            this.DiasExceden.Size = new System.Drawing.Size(107, 22);
+            this.DiasExceden.TabIndex = 36;
             // 
-            // textBox18
+            // nombreEsta
             // 
-            this.textBox18.Location = new System.Drawing.Point(221, 76);
-            this.textBox18.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(107, 22);
-            this.textBox18.TabIndex = 37;
+            this.nombreEsta.Location = new System.Drawing.Point(221, 76);
+            this.nombreEsta.Margin = new System.Windows.Forms.Padding(4);
+            this.nombreEsta.Name = "nombreEsta";
+            this.nombreEsta.Size = new System.Drawing.Size(107, 22);
+            this.nombreEsta.TabIndex = 37;
             // 
-            // textBox19
+            // tiempoProm
             // 
-            this.textBox19.Location = new System.Drawing.Point(221, 430);
-            this.textBox19.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(107, 22);
-            this.textBox19.TabIndex = 38;
+            this.tiempoProm.Location = new System.Drawing.Point(221, 430);
+            this.tiempoProm.Margin = new System.Windows.Forms.Padding(4);
+            this.tiempoProm.Name = "tiempoProm";
+            this.tiempoProm.Size = new System.Drawing.Size(107, 22);
+            this.tiempoProm.TabIndex = 38;
             // 
             // button2
             // 
@@ -443,6 +443,7 @@
             this.button2.Size = new System.Drawing.Size(64, 57);
             this.button2.TabIndex = 40;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // button1
             // 
@@ -463,25 +464,25 @@
             this.ClientSize = new System.Drawing.Size(726, 528);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox19);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tiempoProm);
+            this.Controls.Add(this.nombreEsta);
+            this.Controls.Add(this.DiasExceden);
+            this.Controls.Add(this.porcenExce);
+            this.Controls.Add(this.Max);
+            this.Controls.Add(this.min);
+            this.Controls.Add(this.RepresentTemp);
+            this.Controls.Add(this.Unidades);
+            this.Controls.Add(this.Mediana);
+            this.Controls.Add(this.NumExeden);
+            this.Controls.Add(this.Percentil);
+            this.Controls.Add(this.latitud);
+            this.Controls.Add(this.ubicacion);
+            this.Controls.Add(this.variable);
+            this.Controls.Add(this.depto);
+            this.Controls.Add(this.tipoEsta);
+            this.Controls.Add(this.longitud);
+            this.Controls.Add(this.municipio);
+            this.Controls.Add(this.AutoridadA);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -502,7 +503,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Registros";
             this.Text = "Registro de Datos";
             this.ResumeLayout(false);
@@ -531,25 +532,25 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox AutoridadA;
+        private System.Windows.Forms.TextBox municipio;
+        private System.Windows.Forms.TextBox longitud;
+        private System.Windows.Forms.TextBox tipoEsta;
+        private System.Windows.Forms.TextBox depto;
+        private System.Windows.Forms.TextBox variable;
+        private System.Windows.Forms.TextBox ubicacion;
+        private System.Windows.Forms.TextBox latitud;
+        private System.Windows.Forms.TextBox Percentil;
+        private System.Windows.Forms.TextBox NumExeden;
+        private System.Windows.Forms.TextBox Mediana;
+        private System.Windows.Forms.TextBox Unidades;
+        private System.Windows.Forms.TextBox RepresentTemp;
+        private System.Windows.Forms.TextBox min;
+        private System.Windows.Forms.TextBox Max;
+        private System.Windows.Forms.TextBox porcenExce;
+        private System.Windows.Forms.TextBox DiasExceden;
+        private System.Windows.Forms.TextBox nombreEsta;
+        private System.Windows.Forms.TextBox tiempoProm;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }

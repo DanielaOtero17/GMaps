@@ -41,5 +41,13 @@ namespace Taller_GMaps
             mapa.Show();
 
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            Registros insertar = new Registros();
+            insertar.Show();
+        }
     }
 }
