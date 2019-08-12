@@ -432,6 +432,7 @@
             this.tiempoProm.Name = "tiempoProm";
             this.tiempoProm.Size = new System.Drawing.Size(107, 22);
             this.tiempoProm.TabIndex = 38;
+            this.tiempoProm.TextChanged += new System.EventHandler(this.TiempoProm_TextChanged);
             // 
             // button2
             // 

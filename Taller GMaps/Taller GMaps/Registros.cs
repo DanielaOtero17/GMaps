@@ -62,10 +62,7 @@ namespace Taller_GMaps
             String minimo = this.min.Text;
             String diasExcedencia = this.DiasExceden.Text;
 
-            var filePath = "Data.txt";
-            StreamWriter escribir = new StreamWriter(filePath);
-            StreamReader leer = new StreamReader(filePath);
-            String linea = null;
+ 
 
             if(atoridad.Equals("")&& nombreEstacion.Equals("")&& Longitud.Equals("")&& latitud.Equals("")&&
                 ubicacion.Equals("")&& departamento.Equals("")&& municipio.Equals("")&& tipoEstacion.Equals("")&&
@@ -76,28 +73,32 @@ namespace Taller_GMaps
                 MessageBox.Show("Debe llenar todos los datos para guardar");
 
             }else{
-                try
+               try
                 {
-                    linea = leer.ReadLine();
-                    while (linea!=null)
-                    {
-                        linea = leer.ReadLine();
-                    }
+                    StreamWriter sw = File.AppendText("Data.txt");
                     
-                    escribir.WriteLine(atoridad + "," + nombreEstacion + "," + Longitud + "," + latitud + "," + ubicacion + "," +
+                    sw.WriteLine(atoridad + "," + nombreEstacion + "," + Longitud + "," + latitud + "," + ubicacion + "," +
                                        departamento + "," + municipio + "," + tipoEstacion + "," + variable + "," + tiempoProm + "," +
                                        unidades + "," + representatividadTem + "," + porcentajeExce + "," + mediana + "," + percentil + "," +
                                        maximo + "," + minimo + "," + diasExcedencia);
+                    sw.Close();
 
-                    MessageBox.Show("Se ha guardado con exito");
+                        MessageBox.Show("Se ha guardado con exito");
+                    
                 }
-                catch
+               catch
                 {
                     MessageBox.Show("ERROR, POR FAVOR INTENTE DE NUEVO");
                 }
-                escribir.Close();
+                
             }
             
+        }
+       
+
+        private void TiempoProm_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
