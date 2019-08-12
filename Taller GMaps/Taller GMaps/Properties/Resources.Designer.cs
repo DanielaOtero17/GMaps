@@ -73,6 +73,16 @@ namespace Taller_GMaps.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap degradado {
+            get {
+                object obj = ResourceManager.GetObject("degradado", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap flat_550x550_075_f_u3 {
             get {
                 object obj = ResourceManager.GetObject("flat,550x550,075,f.u3", resourceCulture);

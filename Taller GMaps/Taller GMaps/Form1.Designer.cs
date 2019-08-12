@@ -65,30 +65,36 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(288, 13);
+            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(271, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(194, 24);
+            this.label1.Size = new System.Drawing.Size(201, 24);
             this.label1.TabIndex = 2;
-            this.label1.Text = "MAPA DE GOOGLE ";
+            this.label1.Text = "MAPA DE GOOGLE";
             // 
             // panel1
             // 
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.atras);
             this.panel1.Controls.Add(this.gMapControl1);
             this.panel1.Controls.Add(this.label1);
+            this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel1.Location = new System.Drawing.Point(24, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(764, 461);
+            this.panel1.Size = new System.Drawing.Size(780, 471);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel1_Paint);
             // 
             // atras
             // 
             this.atras.BackgroundImage = global::Taller_GMaps.Properties.Resources.atrás;
-            this.atras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.atras.Location = new System.Drawing.Point(678, 3);
+            this.atras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.atras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.atras.FlatAppearance.BorderSize = 0;
+            this.atras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.atras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.atras.Location = new System.Drawing.Point(691, 0);
             this.atras.Name = "atras";
             this.atras.Size = new System.Drawing.Size(63, 57);
             this.atras.TabIndex = 40;
@@ -100,10 +106,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Taller_GMaps.Properties.Resources.degradado;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(816, 495);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Mapa de ubicaciones";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

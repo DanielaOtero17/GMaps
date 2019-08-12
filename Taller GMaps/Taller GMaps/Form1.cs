@@ -21,15 +21,28 @@ namespace Taller_GMaps
 
     public partial class Form1 : Form
     {
-        
+
         GMarkerGoogle marker;
         GMapOverlay marketOverlay;
         int totalDatos;
+        public int PM10{get; set;}
+        public int PM25 { get; set; }
+        public int SO2 { get; set; }
+        public int NO2 { get; set; }
+        public int O3 { get; set; }
+        public int CO { get; set; }
+
+
 
         public Form1()
         {
             InitializeComponent();
             totalDatos = 0;
+            PM10 = 0;
+            PM25 = 0;
+            SO2 = 0;
+            O3 = 0;
+            CO = 0;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -79,6 +92,30 @@ namespace Taller_GMaps
                       //  marker.ToolTipText = String.Format("Dpto : {0} \n Municipio : {1}", regis.departamento, regis.municipio);
 
                         gMapControl1.Overlays.Add(marketOverlay);
+
+                        if (regis.variableGas.Equals("PM10"))
+                        {
+                            PM10++;
+                        }else if (regis.variableGas.Equals("PM2.5"))
+                        {
+                            PM25++;
+                        }
+                        else if (regis.variableGas.Equals("CO2"))
+                        {
+                            CO++;
+                        }
+                        else if (regis.variableGas.Equals("NO2"))
+                        {
+                            NO2++;
+                        }
+                        else if (regis.variableGas.Equals("SO2"))
+                        {
+                            SO2++;
+                        }
+                        else
+                        {
+                            O3++;
+                        }
                     }
                     fs.Close();
                 }
