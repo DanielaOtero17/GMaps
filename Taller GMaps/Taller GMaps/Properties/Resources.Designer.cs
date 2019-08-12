@@ -63,6 +63,16 @@ namespace Taller_GMaps.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap atrás {
+            get {
+                object obj = ResourceManager.GetObject("atrás", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap flat_550x550_075_f_u3 {
             get {
                 object obj = ResourceManager.GetObject("flat,550x550,075,f.u3", resourceCulture);
@@ -136,6 +146,16 @@ namespace Taller_GMaps.Properties {
         internal static System.Drawing.Bitmap prub {
             get {
                 object obj = ResourceManager.GetObject("prub", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap save {
+            get {
+                object obj = ResourceManager.GetObject("save", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
